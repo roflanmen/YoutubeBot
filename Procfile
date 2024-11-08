@@ -1,1 +1,1 @@
-python youtubebot.py
+worker: python youtubebot.py
