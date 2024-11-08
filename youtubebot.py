@@ -14,8 +14,8 @@ import subprocess as sp
 from dotenv import load_dotenv
 
 load_dotenv()
-TOKEN = os.getenv('BOT_TOKEN')
-PREFIX = os.getenv('BOT_PREFIX', '.')
+TOKEN = "MTMwNDU2MTUxMTg2MzI4NzgwOA.GgRmi9.HLb3mi3hiWT9iR4Z4N1gjScizMCH37JUcgXdQs"
+PREFIX = os.getenv('BOT_PREFIX', '/')
 YTDL_FORMAT = os.getenv('YTDL_FORMAT', 'worstaudio')
 PRINT_STACK_TRACE = os.getenv('PRINT_STACK_TRACE', '1').lower() in ('true', 't', '1')
 BOT_REPORT_COMMAND_NOT_FOUND = os.getenv('BOT_REPORT_COMMAND_NOT_FOUND', '1').lower() in ('true', 't', '1')
